@@ -14,6 +14,9 @@ header {
 footer {
     background-color: mediumseagreen;
 }
+.p1{
+    color: lightgray;
+}
 
 .topnav {
     overflow: hidden;
@@ -21,7 +24,7 @@ footer {
     position: relative;
 }
 
-.topnav #myLinks {
+.topnav #links {
     display: none;
 }
 
@@ -52,8 +55,150 @@ footer {
 i {
     margin-left: 191px;
 }
+h2 {
+}
+.tekstb {
+    transform: translateY(15px);
+    margin-left: 60px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 
+}
+.border_bottom{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-bottom: 1px solid grey;
+    margin: auto;
+    padding: 7px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#linkeen {
+    display: flex;
+    justify-items: left;
+    justify-content: left;
+    margin-top: 10px;
+}
+#linktwee {
+    display: flex;
+    justify-items: left;
+    justify-content: left;
+}
+#linkdrie {
+    display: flex;
+    justify-items: left;
+    justify-content: left;
+}
+#linkvier {
+    display: flex;
+    justify-items: left;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+#linkvijf {
+    display: flex;
+    justify-items: left;
+    justify-content: left;
+}
+#linkzes {
+    display: flex;
+    justify-items: left;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+.tekstbh2 {
+    transform: translateY(4px);
+    margin-left: 60px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.linkjes {
+    color: black;
+    text-decoration: none;
+}
+.knopp {
+    margin-left:3%;
+}
+#eersteknop {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#tweedeknop {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#derdeknop {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#vierdeknop {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#knop {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.berichten {
+    margin-top: 2px;
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 10px;
+    border: solid 2px darkgrey;
 
+}
 
 @media only screen and (min-width: 600px) {
     .active {
@@ -69,8 +214,9 @@ i {
         top: 0;
     }
 
-    section {
+    section,link {
     }
+
 }
 
 
